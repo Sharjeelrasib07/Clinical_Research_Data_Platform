@@ -1,4 +1,3 @@
-# app/api/main.py
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.database import run_query
@@ -14,7 +13,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://clinical-research-data-platform.vercel.app/",
+        "https://clinical-research-data-platform.vercel.app",
     ],
     allow_credentials=False,
     allow_methods=["*"],
