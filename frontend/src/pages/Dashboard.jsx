@@ -115,7 +115,7 @@ export default function Dashboard() {
           </span>
         </div>
 
-        {dataQuality ? (
+        {dataQuality?.patients && dataQuality?.visits && dataQuality?.lab_results ? (
           <div className="quality-grid">
             <div className="quality-item">
               <div className="quality-top">
@@ -151,7 +151,7 @@ export default function Dashboard() {
             </div>
           </div>
         ) : (
-          <p>Loading data quality report...</p>
+          <p>Data quality report is not available in the current deployment.</p>
         )}
       </div>
     </div>

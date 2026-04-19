@@ -47,4 +47,23 @@ def get_data_quality():
         with open("reports/data_quality_report.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        return {"error": "Data quality report not found"}
+        return {
+            "metadata": {
+                "last_etl_run": "Unavailable"
+            },
+            "patients": {
+                "raw_records": 0,
+                "cleaned_records": 0,
+                "dropped_records": 0
+            },
+            "visits": {
+                "raw_records": 0,
+                "cleaned_records": 0,
+                "dropped_records": 0
+            },
+            "lab_results": {
+                "raw_records": 0,
+                "cleaned_records": 0,
+                "dropped_records": 0
+            }
+        }
