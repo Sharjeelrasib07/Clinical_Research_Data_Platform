@@ -1,0 +1,128 @@
+2026-04-17 23:40:18,007 - __main__ - INFO - Starting ETL pipeline
+2026-04-17 23:40:18,007 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-17 23:40:18,015 - app.etl.extract - INFO - Extracted 5 rows from data/raw/patients.csv
+2026-04-17 23:40:18,015 - app.etl.transform - INFO - Transforming patients data
+2026-04-17 23:40:18,038 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-17 23:40:18,039 - app.etl.load - INFO - Loading 5 rows into table 'patients'
+2026-04-17 23:40:18,165 - app.etl.load - INFO - Successfully loaded data into 'patients'
+2026-04-17 23:40:18,165 - app.etl.extract - INFO - Extracting data from data/raw/visits.csv
+2026-04-17 23:40:18,171 - app.etl.extract - INFO - Extracted 5 rows from data/raw/visits.csv
+2026-04-17 23:40:18,172 - app.etl.transform - INFO - Transforming visits data
+2026-04-17 23:40:18,181 - app.etl.transform - INFO - Saved cleaned visits data to data/processed/visits_cleaned.csv
+2026-04-17 23:40:18,181 - app.etl.load - INFO - Loading 5 rows into table 'visits'
+2026-04-17 23:40:18,201 - app.etl.load - INFO - Successfully loaded data into 'visits'
+2026-04-17 23:40:18,202 - app.etl.extract - INFO - Extracting data from data/raw/lab_results.csv
+2026-04-17 23:40:18,210 - app.etl.extract - INFO - Extracted 5 rows from data/raw/lab_results.csv
+2026-04-17 23:40:18,210 - app.etl.transform - INFO - Transforming lab results data
+2026-04-17 23:40:18,219 - app.etl.transform - INFO - Saved cleaned lab results data to data/processed/lab_results_cleaned.csv
+2026-04-17 23:40:18,219 - app.etl.load - INFO - Loading 5 rows into table 'lab_results'
+2026-04-17 23:40:18,234 - app.etl.load - INFO - Successfully loaded data into 'lab_results'
+2026-04-17 23:40:18,235 - __main__ - INFO - ETL pipeline completed successfully
+2026-04-18 22:52:25,638 - __main__ - INFO - Starting ETL pipeline
+2026-04-18 22:52:25,639 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-18 22:52:25,650 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-18 22:52:25,651 - app.etl.transform - INFO - Transforming patients data
+2026-04-18 22:52:25,677 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-18 22:52:25,677 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-18 22:52:25,761 - app.etl.load - INFO - Successfully loaded data into 'patients'
+2026-04-18 22:52:25,762 - app.etl.extract - INFO - Extracting data from data/raw/visits.csv
+2026-04-18 22:52:25,769 - app.etl.extract - INFO - Extracted 120 rows from data/raw/visits.csv
+2026-04-18 22:52:25,770 - app.etl.transform - INFO - Transforming visits data
+2026-04-18 22:52:25,783 - app.etl.transform - INFO - Saved cleaned visits data to data/processed/visits_cleaned.csv
+2026-04-18 22:52:25,783 - app.etl.load - INFO - Loading 120 rows into table 'visits'
+2026-04-18 22:52:25,805 - app.etl.load - INFO - Successfully loaded data into 'visits'
+2026-04-18 22:52:25,806 - app.etl.extract - INFO - Extracting data from data/raw/lab_results.csv
+2026-04-18 22:52:25,813 - app.etl.extract - INFO - Extracted 180 rows from data/raw/lab_results.csv
+2026-04-18 22:52:25,813 - app.etl.transform - INFO - Transforming lab results data
+2026-04-18 22:52:25,823 - app.etl.transform - INFO - Saved cleaned lab results data to data/processed/lab_results_cleaned.csv
+2026-04-18 22:52:25,824 - app.etl.load - INFO - Loading 180 rows into table 'lab_results'
+2026-04-18 22:52:25,847 - app.etl.load - INFO - Successfully loaded data into 'lab_results'
+2026-04-18 22:52:25,848 - __main__ - INFO - ETL pipeline completed successfully
+2026-04-19 13:48:24,949 - __main__ - INFO - Starting ETL pipeline
+2026-04-19 13:48:24,950 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-19 13:48:24,977 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-19 13:48:24,978 - app.etl.transform - INFO - Transforming patients data
+2026-04-19 13:48:25,012 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-19 13:48:25,012 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-19 13:48:44,902 - __main__ - INFO - Starting ETL pipeline
+2026-04-19 13:48:44,903 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-19 13:48:44,908 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-19 13:48:44,908 - app.etl.transform - INFO - Transforming patients data
+2026-04-19 13:48:44,921 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-19 13:48:44,921 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-19 13:49:46,657 - __main__ - INFO - Starting ETL pipeline
+2026-04-19 13:49:46,658 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-19 13:49:46,666 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-19 13:49:46,667 - app.etl.transform - INFO - Transforming patients data
+2026-04-19 13:49:46,682 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-19 13:49:46,682 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-19 13:50:26,433 - __main__ - INFO - Starting ETL pipeline
+2026-04-19 13:50:26,433 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-19 13:50:26,438 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-19 13:50:26,439 - app.etl.transform - INFO - Transforming patients data
+2026-04-19 13:50:26,453 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-19 13:50:26,454 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-19 13:51:18,926 - __main__ - INFO - Starting ETL pipeline
+2026-04-19 13:51:18,927 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-19 13:51:18,934 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-19 13:51:18,934 - app.etl.transform - INFO - Transforming patients data
+2026-04-19 13:51:18,953 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-19 13:51:18,953 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-19 13:56:53,999 - __main__ - INFO - Starting ETL pipeline
+2026-04-19 13:56:54,000 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-19 13:56:54,007 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-19 13:56:54,007 - app.etl.transform - INFO - Transforming patients data
+2026-04-19 13:56:54,020 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-19 13:56:54,020 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-19 13:59:48,547 - __main__ - INFO - Starting ETL pipeline
+2026-04-19 13:59:48,547 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-19 13:59:48,554 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-19 13:59:48,555 - app.etl.transform - INFO - Transforming patients data
+2026-04-19 13:59:48,572 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-19 13:59:48,573 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-19 13:59:48,689 - app.etl.load - INFO - Successfully loaded data into 'patients'
+2026-04-19 13:59:48,690 - app.etl.extract - INFO - Extracting data from data/raw/visits.csv
+2026-04-19 13:59:48,719 - app.etl.extract - INFO - Extracted 120 rows from data/raw/visits.csv
+2026-04-19 13:59:48,719 - app.etl.transform - INFO - Transforming visits data
+2026-04-19 13:59:48,728 - app.etl.transform - INFO - Saved cleaned visits data to data/processed/visits_cleaned.csv
+2026-04-19 13:59:48,730 - app.etl.load - INFO - Loading 120 rows into table 'visits'
+2026-04-19 13:59:48,753 - app.etl.load - INFO - Successfully loaded data into 'visits'
+2026-04-19 13:59:48,753 - app.etl.extract - INFO - Extracting data from data/raw/lab_results.csv
+2026-04-19 13:59:48,777 - app.etl.extract - INFO - Extracted 180 rows from data/raw/lab_results.csv
+2026-04-19 13:59:48,778 - app.etl.transform - INFO - Transforming lab results data
+2026-04-19 13:59:48,791 - app.etl.transform - INFO - Saved cleaned lab results data to data/processed/lab_results_cleaned.csv
+2026-04-19 13:59:48,791 - app.etl.load - INFO - Loading 180 rows into table 'lab_results'
+2026-04-19 13:59:48,820 - app.etl.load - INFO - Successfully loaded data into 'lab_results'
+2026-04-19 13:59:48,826 - __main__ - INFO - ETL pipeline completed successfully
+2026-04-19 14:56:19,320 - __main__ - INFO - Starting ETL pipeline
+2026-04-19 14:56:19,320 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-19 14:56:19,330 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-19 14:56:19,330 - app.etl.transform - INFO - Transforming patients data
+2026-04-19 14:56:19,349 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-19 14:56:19,349 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-19 15:00:29,754 - __main__ - INFO - Starting ETL pipeline
+2026-04-19 15:00:29,755 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-19 15:00:29,762 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-19 15:00:29,762 - app.etl.transform - INFO - Transforming patients data
+2026-04-19 15:00:29,781 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-19 15:00:29,782 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-19 15:01:17,010 - __main__ - INFO - Starting ETL pipeline
+2026-04-19 15:01:17,010 - app.etl.extract - INFO - Extracting data from data/raw/patients.csv
+2026-04-19 15:01:17,015 - app.etl.extract - INFO - Extracted 60 rows from data/raw/patients.csv
+2026-04-19 15:01:17,016 - app.etl.transform - INFO - Transforming patients data
+2026-04-19 15:01:17,028 - app.etl.transform - INFO - Saved cleaned patients data to data/processed/patients_cleaned.csv
+2026-04-19 15:01:17,028 - app.etl.load - INFO - Loading 60 rows into table 'patients'
+2026-04-19 15:01:17,092 - app.etl.load - INFO - Successfully loaded data into 'patients'
+2026-04-19 15:01:17,092 - app.etl.extract - INFO - Extracting data from data/raw/visits.csv
+2026-04-19 15:01:17,099 - app.etl.extract - INFO - Extracted 120 rows from data/raw/visits.csv
+2026-04-19 15:01:17,100 - app.etl.transform - INFO - Transforming visits data
+2026-04-19 15:01:17,110 - app.etl.transform - INFO - Saved cleaned visits data to data/processed/visits_cleaned.csv
+2026-04-19 15:01:17,111 - app.etl.load - INFO - Loading 120 rows into table 'visits'
+2026-04-19 15:01:17,134 - app.etl.load - INFO - Successfully loaded data into 'visits'
+2026-04-19 15:01:17,135 - app.etl.extract - INFO - Extracting data from data/raw/lab_results.csv
+2026-04-19 15:01:17,143 - app.etl.extract - INFO - Extracted 180 rows from data/raw/lab_results.csv
+2026-04-19 15:01:17,143 - app.etl.transform - INFO - Transforming lab results data
+2026-04-19 15:01:17,151 - app.etl.transform - INFO - Saved cleaned lab results data to data/processed/lab_results_cleaned.csv
+2026-04-19 15:01:17,151 - app.etl.load - INFO - Loading 180 rows into table 'lab_results'
+2026-04-19 15:01:17,175 - app.etl.load - INFO - Successfully loaded data into 'lab_results'
+2026-04-19 15:01:17,182 - __main__ - INFO - ETL pipeline completed successfully

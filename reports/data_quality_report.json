@@ -1,0 +1,20 @@
+{
+    "patients": {
+        "raw_records": 60,
+        "cleaned_records": 60,
+        "dropped_records": 0
+    },
+    "visits": {
+        "raw_records": 120,
+        "cleaned_records": 120,
+        "dropped_records": 0
+    },
+    "lab_results": {
+        "raw_records": 180,
+        "cleaned_records": 180,
+        "dropped_records": 0
+    },
+    "metadata": {
+        "last_etl_run": "2026-04-19 15:01:17"
+    }
+}

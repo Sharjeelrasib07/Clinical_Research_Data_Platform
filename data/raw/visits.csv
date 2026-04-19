@@ -1,0 +1,121 @@
+visit_id,patient_id,visit_date,department,blood_pressure_systolic,blood_pressure_diastolic,glucose_level,physician_note_summary
+V001,P035,2026-04-05,Cardiology,137,81,94.9,Elevated blood pressure noted during consultation.
+V002,P057,2026-05-16,Cardiology,128,83,96.8,Monitoring metabolic indicators over time.
+V003,P020,2026-04-20,General Practice,156,98,85.6,Monitoring metabolic indicators over time.
+V004,P060,2026-05-06,Endocrinology,113,81,93.7,Routine follow-up with stable condition.
+V005,P010,2026-05-14,Internal Medicine,123,78,138.8,Patient reports fatigue and mild dizziness.
+V006,P041,2026-04-06,Internal Medicine,137,96,103.8,Routine follow-up with stable condition.
+V007,P041,2026-04-09,Neurology,158,82,88.3,Elevated blood pressure noted during consultation.
+V008,P041,2026-05-06,Internal Medicine,115,93,126.4,Medication review recommended.
+V009,P001,2026-05-08,Endocrinology,109,74,125.9,Elevated blood pressure noted during consultation.
+V010,P036,2026-04-03,Cardiology,132,73,88.1,Elevated blood pressure noted during consultation.
+V011,P058,2026-05-06,Internal Medicine,118,80,135.0,Elevated blood pressure noted during consultation.
+V012,P057,2026-04-11,Neurology,144,74,154.4,Patient reports fatigue and mild dizziness.
+V013,P052,2026-04-27,Cardiology,131,66,98.5,Elevated blood pressure noted during consultation.
+V014,P052,2026-04-25,Cardiology,122,75,144.1,Routine follow-up with stable condition.
+V015,P056,2026-04-23,Endocrinology,159,95,101.7,Medication review recommended.
+V016,P020,2026-04-22,Cardiology,119,66,134.5,Medication review recommended.
+V017,P018,2026-04-26,Endocrinology,154,82,111.3,Monitoring metabolic indicators over time.
+V018,P044,2026-04-12,General Practice,126,66,93.7,Elevated blood pressure noted during consultation.
+V019,P038,2026-04-21,Internal Medicine,107,71,129.7,Elevated blood pressure noted during consultation.
+V020,P028,2026-04-13,General Practice,137,72,113.9,Monitoring metabolic indicators over time.
+V021,P017,2026-05-14,Endocrinology,150,92,85.1,Monitoring metabolic indicators over time.
+V022,P047,2026-05-10,Cardiology,128,92,90.2,Elevated blood pressure noted during consultation.
+V023,P021,2026-04-21,Endocrinology,151,84,123.0,Medication review recommended.
+V024,P026,2026-05-14,Internal Medicine,140,73,99.4,Medication review recommended.
+V025,P048,2026-04-20,Cardiology,144,84,115.5,Routine follow-up with stable condition.
+V026,P019,2026-05-14,Cardiology,132,85,119.9,Medication review recommended.
+V027,P014,2026-05-03,General Practice,135,75,134.4,Elevated blood pressure noted during consultation.
+V028,P043,2026-05-14,General Practice,126,70,146.4,Patient reports fatigue and mild dizziness.
+V029,P020,2026-04-16,Cardiology,156,77,96.1,Routine follow-up with stable condition.
+V030,P031,2026-04-13,General Practice,159,69,119.2,Monitoring metabolic indicators over time.
+V031,P046,2026-04-07,Neurology,136,90,103.3,Routine follow-up with stable condition.
+V032,P050,2026-04-30,Neurology,119,76,145.3,Monitoring metabolic indicators over time.
+V033,P004,2026-05-13,General Practice,120,72,119.2,Medication review recommended.
+V034,P034,2026-05-10,General Practice,143,85,156.3,Medication review recommended.
+V035,P053,2026-05-01,General Practice,132,100,118.4,Patient reports fatigue and mild dizziness.
+V036,P029,2026-05-04,Internal Medicine,153,80,148.0,Elevated blood pressure noted during consultation.
+V037,P032,2026-04-16,Cardiology,122,93,90.8,Elevated blood pressure noted during consultation.
+V038,P018,2026-04-15,Internal Medicine,125,99,91.0,Patient reports fatigue and mild dizziness.
+V039,P025,2026-04-22,Cardiology,150,78,89.8,Medication review recommended.
+V040,P035,2026-04-25,Neurology,131,68,100.5,Medication review recommended.
+V041,P058,2026-04-25,General Practice,149,66,149.3,Monitoring metabolic indicators over time.
+V042,P031,2026-05-05,Endocrinology,127,84,141.5,Medication review recommended.
+V043,P048,2026-04-28,General Practice,156,79,121.6,Elevated blood pressure noted during consultation.
+V044,P032,2026-04-11,Endocrinology,129,86,135.2,Medication review recommended.
+V045,P054,2026-05-08,Neurology,113,99,87.0,Medication review recommended.
+V046,P037,2026-04-12,Endocrinology,110,92,95.2,Medication review recommended.
+V047,P004,2026-04-22,Internal Medicine,129,85,100.9,Elevated blood pressure noted during consultation.
+V048,P049,2026-05-01,Neurology,122,91,103.9,Routine follow-up with stable condition.
+V049,P002,2026-05-12,General Practice,108,87,101.8,Routine follow-up with stable condition.
+V050,P003,2026-04-10,Endocrinology,120,77,147.9,Monitoring metabolic indicators over time.
+V051,P016,2026-04-30,Cardiology,135,72,127.3,Patient reports fatigue and mild dizziness.
+V052,P045,2026-05-16,Internal Medicine,154,88,97.6,Monitoring metabolic indicators over time.
+V053,P008,2026-05-07,Cardiology,124,71,128.4,Elevated blood pressure noted during consultation.
+V054,P044,2026-04-07,Neurology,130,77,90.7,Patient reports fatigue and mild dizziness.
+V055,P045,2026-04-03,Internal Medicine,159,72,144.7,Monitoring metabolic indicators over time.
+V056,P023,2026-04-01,General Practice,132,88,90.2,Elevated blood pressure noted during consultation.
+V057,P055,2026-05-11,Neurology,157,96,92.9,Elevated blood pressure noted during consultation.
+V058,P058,2026-05-12,Neurology,150,74,117.7,Monitoring metabolic indicators over time.
+V059,P018,2026-04-28,General Practice,156,99,143.1,Medication review recommended.
+V060,P053,2026-04-18,General Practice,122,85,148.9,Routine follow-up with stable condition.
+V061,P057,2026-04-22,Neurology,120,94,127.7,Medication review recommended.
+V062,P002,2026-04-23,Neurology,159,85,98.6,Patient reports fatigue and mild dizziness.
+V063,P052,2026-05-06,Internal Medicine,126,82,151.0,Elevated blood pressure noted during consultation.
+V064,P001,2026-05-02,General Practice,117,70,103.1,Medication review recommended.
+V065,P036,2026-04-29,Cardiology,149,95,133.4,Medication review recommended.
+V066,P051,2026-04-20,Endocrinology,110,83,101.6,Patient reports fatigue and mild dizziness.
+V067,P043,2026-04-28,General Practice,128,95,126.5,Elevated blood pressure noted during consultation.
+V068,P048,2026-04-20,General Practice,126,87,137.7,Elevated blood pressure noted during consultation.
+V069,P017,2026-05-15,Cardiology,112,77,108.7,Monitoring metabolic indicators over time.
+V070,P012,2026-05-04,Cardiology,118,95,105.7,Monitoring metabolic indicators over time.
+V071,P039,2026-04-12,Internal Medicine,111,77,107.2,Elevated blood pressure noted during consultation.
+V072,P020,2026-04-04,Endocrinology,150,99,94.5,Routine follow-up with stable condition.
+V073,P036,2026-04-07,Internal Medicine,149,73,132.8,Medication review recommended.
+V074,P056,2026-04-22,Endocrinology,141,83,120.2,Medication review recommended.
+V075,P012,2026-04-26,Endocrinology,121,95,93.6,Routine follow-up with stable condition.
+V076,P032,2026-04-20,Endocrinology,141,68,96.4,Monitoring metabolic indicators over time.
+V077,P006,2026-05-09,Cardiology,112,100,142.3,Monitoring metabolic indicators over time.
+V078,P051,2026-04-20,General Practice,119,98,113.5,Medication review recommended.
+V079,P056,2026-05-10,General Practice,132,84,127.6,Routine follow-up with stable condition.
+V080,P048,2026-05-13,Endocrinology,153,78,131.9,Elevated blood pressure noted during consultation.
+V081,P006,2026-04-01,Cardiology,120,76,126.4,Patient reports fatigue and mild dizziness.
+V082,P027,2026-04-19,Neurology,149,95,106.8,Patient reports fatigue and mild dizziness.
+V083,P046,2026-04-17,Internal Medicine,149,94,90.3,Patient reports fatigue and mild dizziness.
+V084,P051,2026-04-15,General Practice,147,77,116.9,Monitoring metabolic indicators over time.
+V085,P042,2026-04-20,Cardiology,122,74,90.4,Patient reports fatigue and mild dizziness.
+V086,P039,2026-05-15,General Practice,123,93,94.3,Elevated blood pressure noted during consultation.
+V087,P026,2026-05-09,Internal Medicine,137,99,122.0,Routine follow-up with stable condition.
+V088,P003,2026-04-06,Neurology,152,85,130.3,Routine follow-up with stable condition.
+V089,P015,2026-05-07,General Practice,142,66,160.0,Elevated blood pressure noted during consultation.
+V090,P003,2026-04-12,Cardiology,135,98,133.9,Elevated blood pressure noted during consultation.
+V091,P038,2026-04-23,Neurology,145,96,157.7,Medication review recommended.
+V092,P027,2026-04-27,Internal Medicine,125,71,149.3,Elevated blood pressure noted during consultation.
+V093,P045,2026-04-03,Neurology,123,90,146.0,Monitoring metabolic indicators over time.
+V094,P030,2026-05-03,Endocrinology,125,81,109.2,Medication review recommended.
+V095,P053,2026-04-13,Endocrinology,147,99,119.6,Routine follow-up with stable condition.
+V096,P034,2026-04-14,Internal Medicine,144,96,131.9,Routine follow-up with stable condition.
+V097,P018,2026-04-08,General Practice,113,83,117.9,Medication review recommended.
+V098,P002,2026-05-06,General Practice,156,80,138.2,Elevated blood pressure noted during consultation.
+V099,P001,2026-04-30,General Practice,131,70,101.9,Routine follow-up with stable condition.
+V100,P008,2026-04-27,Cardiology,136,83,123.2,Elevated blood pressure noted during consultation.
+V101,P054,2026-04-25,Neurology,135,80,119.3,Patient reports fatigue and mild dizziness.
+V102,P013,2026-04-27,General Practice,137,73,149.8,Elevated blood pressure noted during consultation.
+V103,P022,2026-05-08,General Practice,122,65,106.2,Elevated blood pressure noted during consultation.
+V104,P038,2026-04-23,Neurology,160,74,118.5,Medication review recommended.
+V105,P022,2026-04-13,General Practice,153,99,113.3,Elevated blood pressure noted during consultation.
+V106,P045,2026-04-03,Cardiology,141,89,102.5,Medication review recommended.
+V107,P021,2026-05-02,Neurology,150,89,114.0,Patient reports fatigue and mild dizziness.
+V108,P003,2026-04-07,Cardiology,137,86,150.2,Medication review recommended.
+V109,P034,2026-04-05,Neurology,105,74,115.7,Patient reports fatigue and mild dizziness.
+V110,P031,2026-05-14,Internal Medicine,126,90,133.7,Elevated blood pressure noted during consultation.
+V111,P055,2026-05-05,General Practice,129,85,132.0,Medication review recommended.
+V112,P003,2026-04-15,General Practice,109,80,132.3,Elevated blood pressure noted during consultation.
+V113,P048,2026-04-29,Endocrinology,132,71,142.0,Routine follow-up with stable condition.
+V114,P011,2026-04-19,Internal Medicine,106,67,109.3,Routine follow-up with stable condition.
+V115,P023,2026-05-07,Internal Medicine,132,74,103.3,Medication review recommended.
+V116,P044,2026-05-10,Cardiology,115,76,90.9,Medication review recommended.
+V117,P044,2026-04-30,Cardiology,136,74,102.4,Elevated blood pressure noted during consultation.
+V118,P017,2026-04-11,Endocrinology,156,94,152.6,Monitoring metabolic indicators over time.
+V119,P005,2026-05-15,Neurology,127,84,132.9,Medication review recommended.
+V120,P017,2026-05-01,Neurology,159,84,99.9,Medication review recommended.
