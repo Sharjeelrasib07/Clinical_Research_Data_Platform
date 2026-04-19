@@ -16,6 +16,7 @@ def get_engine():
 
     database_url = (
         f"postgresql+psycopg2://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
+        f"?sslmode=require"
     )
     return create_engine(database_url)
 
