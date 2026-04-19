@@ -1,29 +1,50 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
+# =========================
 # Environment
+# =========================
 .env
+.env.*
 
+# =========================
 # Logs
+# =========================
 logs/
 *.log
 
-# Reports
-reports/
-
-# Processed data
+# =========================
+# Data (large / generated)
+# =========================
 data/processed/
 
+# =========================
+# Reports
+# Ignore all except main demo report
+# =========================
+reports/*
+!reports/data_quality_report.json
+
+# =========================
 # Frontend
+# =========================
 frontend/node_modules/
 frontend/dist/
 
+# =========================
 # OS / Editor
+# =========================
 .DS_Store
 Thumbs.db
 .vscode/
 
-# Windows / misc
+# =========================
+# Build / misc
+# =========================
 *.exe
 *.winmd
