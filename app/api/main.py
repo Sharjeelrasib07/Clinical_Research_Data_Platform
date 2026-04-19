@@ -12,8 +12,11 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # tighten later after frontend deploy
-    allow_credentials=True,
+    allow_origins=[
+        "http://localhost:5173",
+        "https://clinical-research-data-platform.vercel.app/",
+    ],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
