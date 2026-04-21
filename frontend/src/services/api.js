@@ -16,4 +16,17 @@ export const api = {
   getGenderDistribution: () => fetchJson("/stats/gender-distribution"),
   getDiagnosisSummary: () => fetchJson("/stats/diagnosis-summary"),
   getDataQuality: () => fetchJson("/stats/data-quality"),
+
+  // ✅ NEW: Run ETL pipeline
+  runETL: async () => {
+    const response = await fetch(`${API_BASE_URL}/admin/run-etl`, {
+      method: "POST",
+    });
+
+    if (!response.ok) {
+      throw new Error(`Request failed: ${response.status}`);
+    }
+
+    return response.json();
+  },
 };

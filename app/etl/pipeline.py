@@ -6,6 +6,7 @@ from app.etl.transform import (
     transform_lab_results,
 )
 from app.etl.load import load_to_postgres
+from app.etl.reset import reset_tables
 from app.utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -15,6 +16,8 @@ def run_pipeline():
     logger.info("Starting ETL pipeline")
 
     stats = {}
+
+    reset_tables()
 
     patients_raw = extract_csv("data/raw/patients.csv")
     patients_clean = transform_patients(patients_raw)
@@ -51,6 +54,7 @@ def run_pipeline():
     generate_report(stats)
 
     logger.info("ETL pipeline completed successfully")
+    return {"message": "ETL pipeline completed successfully", "stats": stats}
 
 
 if __name__ == "__main__":

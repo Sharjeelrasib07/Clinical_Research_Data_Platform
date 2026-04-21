@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.database import run_query
-from app.api.routes import patients, visits, labs, stats
+from app.api.routes import patients, visits, labs, stats, admin
 
 app = FastAPI(
     title="Clinical Research Data Platform",
@@ -41,3 +41,4 @@ app.include_router(patients.router)
 app.include_router(visits.router)
 app.include_router(labs.router)
 app.include_router(stats.router)
+app.include_router(admin.router)

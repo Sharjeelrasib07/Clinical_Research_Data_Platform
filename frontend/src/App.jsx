@@ -4,6 +4,7 @@ import Dashboard from "./pages/Dashboard";
 import Patients from "./pages/Patients";
 import Visits from "./pages/Visits";
 import Labs from "./pages/Labs";
+import Admin from "./pages/Admin";
 import About from "./pages/About";
 
 export default function App() {
@@ -17,6 +18,8 @@ export default function App() {
         return <Visits />;
       case "Labs":
         return <Labs />;
+      case "Admin":
+        return <Admin />;
       case "About":
         return <About />;
       default:

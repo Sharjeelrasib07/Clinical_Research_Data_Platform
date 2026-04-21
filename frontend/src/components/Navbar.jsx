@@ -1,5 +1,5 @@
 export default function Navbar({ currentPage, setCurrentPage }) {
-  const links = ["Dashboard", "Patients", "Visits", "Labs", "About"];
+  const links = ["Dashboard", "Patients", "Visits", "Labs", "Admin", "About"];
 
   return (
     <nav className="navbar">
