@@ -306,3 +306,144 @@ body {
     flex-direction: column;
   }
 }
+
+/* =========================
+   Responsive Improvements
+   ========================= */
+
+@media (max-width: 1200px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .navbar-links {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .page-badges {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quality-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main-content {
+    padding: 18px;
+  }
+
+  .page h1 {
+    font-size: 38px;
+  }
+
+  .navbar-title {
+    font-size: 26px;
+  }
+
+  .navbar-subtitle {
+    font-size: 13px;
+  }
+
+  .chart-card,
+  .about-card,
+  .table-wrapper,
+  .stat-card {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+
+  .main-content {
+    padding: 14px;
+  }
+
+  .page h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+
+  .page-subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .navbar {
+    padding: 14px 16px;
+  }
+
+  .navbar-title {
+    font-size: 22px;
+  }
+
+  .navbar-subtitle {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .nav-button {
+    padding: 9px 12px;
+    font-size: 14px;
+  }
+
+  .platform-badge {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .stat-card p {
+    font-size: 22px;
+  }
+
+  .chart-card h3,
+  .about-card h2 {
+    font-size: 20px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
+  .data-table {
+    min-width: 700px;
+  }
+
+  .quality-item {
+    padding: 14px;
+  }
+
+  .footer {
+    font-size: 13px;
+    padding: 14px;
+  }
+}
